@@ -1,0 +1,3 @@
+rootProject.name='AnimatedDialog'
+include ':app'
+include ':animateddialog'
