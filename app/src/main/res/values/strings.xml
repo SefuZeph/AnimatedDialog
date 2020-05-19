@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AnimatedDialog</string>
+    <string name="load_material_dialog_string">LOAD MATERIAL DIALOG</string>
 </resources>
