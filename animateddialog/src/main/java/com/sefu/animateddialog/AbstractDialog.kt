@@ -30,13 +30,13 @@ abstract class AbstractDialog(
     @NonNull mAnimationFile: String
 ) :
     DialogInterface {
-    private lateinit var mDialog: Dialog
+    lateinit var mDialog: Dialog
     private lateinit var mAnimationView: LottieAnimationView
     private lateinit var mOnShowListener: OnShowListener
 
     protected fun view(
         @NonNull layoutInflater: LayoutInflater,
-        @Nullable container: ViewGroup
+        @Nullable container: ViewGroup?
     ): View {
 
         val view = layoutInflater.inflate(R.layout.layout_animated_dialog, container, false)
@@ -150,7 +150,7 @@ abstract class AbstractDialog(
     }
 
     /**
-     * @return [LottieAnimationView] from the Dialog.
+     * @return [LottieAnimationView] to display in the dialog fragment.
      */
     open fun getAnimationView(): LottieAnimationView? {
         return mAnimationView
