@@ -18,6 +18,7 @@ import com.sefu.animateddialog.constants.NO_ICON
 import com.sefu.animateddialog.dialog.DialogButton
 import com.sefu.animateddialog.interfaces.DialogInterface
 import com.sefu.animateddialog.interfaces.OnShowListener
+import com.xxx.xxx.R
 
 
 abstract class AbstractDialog(
