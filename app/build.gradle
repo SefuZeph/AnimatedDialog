@@ -38,6 +38,9 @@ dependencies {
     // Lottie Animation Library
     implementation "com.airbnb.android:lottie:$version_lottie"
 
+    //animated dialog
+    implementation project(path: ':animateddialog')
+
     testImplementation "junit:junit:$version_junit"
     androidTestImplementation "androidx.test.ext:junit:$version_test_junit"
     androidTestImplementation "androidx.test.espresso:espresso-core:$version_espresso_core"
